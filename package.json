@@ -1,0 +1,31 @@
+{
+  "name": "upstate_challenge",
+  "version": "1.0.0",
+  "description": "Solidity code challenge for Upstate Interactive",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcral/upstate_contracts.git"
+  },
+  "author": "bcral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcral/upstate_contracts/issues"
+  },
+  "homepage": "https://github.com/bcral/upstate_contracts#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "bignumber.js": "^9.0.2"
+  }
+}
